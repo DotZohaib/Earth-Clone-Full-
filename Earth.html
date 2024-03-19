@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css' rel='stylesheet' />
+
+<style>
+    
+body { margin: 0; padding: 0; }
+#map { position: absolute; top: 0; bottom: 0; width: 100%; }
+
+.mapboxgl-popup {
+max-width: 400px;
+font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+</style>
+    <title>Corona Virus </title>
+
+
+</head>
+<body>
+    
+<div id='map' ></div>
+</body>
+
+
+<script src='https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js'></script>
+
+<script>
+mapboxgl.accessToken = 'pk.eyJ1Ijoiem9oYWliNDU5IiwiYSI6ImNsbGhuOXA3NjE2bDUzdG8zcWkyb2p1eDIifQ.lGtcUoip0_Zu-qUgplocEQ';
+const map = new mapboxgl.Map({
+    container: 'map', // container ID
+    style: 'mapbox://styles/mapbox/streets-v12',
+    center: [-77.04, 38.907],
+    zoom: 11.15
+});
+
+map.addLayer({
+'id': 'places',
+'type': 'circle',
+'source': 'places',
+'paint': {
+'circle-color': '#4264fb',
+'circle-radius': 6,
+'circle-stroke-width': 2,
+'circle-stroke-color': '#ffffff'
+}
+});
+ 
+// Create a popup, but don't add it to the map yet.
+const popup = new mapboxgl.Popup({
+closeButton: false,
+closeOnClick: false
+});
+ 
+map.on('mouseenter', 'places', (e) => {
+// Change the cursor style as a UI indicator.
+map.getCanvas().style.cursor = 'pointer';
+})
+map.on('mouseleave', 'places', () => {
+map.getCanvas().style.cursor = '';
+popup.remove();
+});
+</script>
+
+  <script src="index.js"></script>
+</html>

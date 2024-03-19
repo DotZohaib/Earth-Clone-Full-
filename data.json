@@ -1,0 +1,1201 @@
+{
+    "meta" : {
+      "view" : {
+        "id" : "dtit-7gp4",
+        "name" : "COVID-19 Testing Locations",
+        "assetType" : "dataset",
+        "averageRating" : 0,
+        "category" : "COVID-19",
+        "createdAt" : 1588447625,
+        "description" : "<strong>A. SUMMARY</strong>\nA list of testing locations including address and coordinates for mapping.\n\n<strong>B. HOW THE DATASET IS CREATED</strong>\nDataset is manually compiled by staff from the various testing providers.\n\n<strong>C. UPDATE PROCESS</strong>\nData is updated as needed. If you have a site you'd like added to the dataset and map, please email DPH.DOC.Ops.Testing@sfdph.org.\n\n<strong>D. HOW TO USE THIS DATASET</strong>\nDataset can be used to map locations of test sites and understand which require insurance and which do not. It is the base data used to power the user-facing map of testing locations at https://datasf.org/covid19-testing-locations",
+        "displayType" : "table",
+        "downloadCount" : 3345,
+        "hideFromCatalog" : false,
+        "hideFromDataJson" : false,
+        "licenseId" : "PDDL",
+        "newBackend" : true,
+        "numberOfComments" : 0,
+        "oid" : 34698495,
+        "provenance" : "official",
+        "publicationAppendEnabled" : false,
+        "publicationDate" : 1594995715,
+        "publicationGroup" : 17084578,
+        "publicationStage" : "published",
+        "rowsUpdatedAt" : 1688156392,
+        "rowsUpdatedBy" : "gwcj-dgge",
+        "tableId" : 17344413,
+        "totalTimesRated" : 0,
+        "viewCount" : 24319,
+        "viewLastModified" : 1688156389,
+        "viewType" : "tabular",
+        "approvals" : [ {
+          "reviewedAt" : 1588695822,
+          "reviewedAutomatically" : false,
+          "state" : "approved",
+          "submissionId" : 2446985,
+          "submissionObject" : "public_audience_request",
+          "submissionOutcome" : "change_audience",
+          "submittedAt" : 1588695801,
+          "targetAudience" : "public",
+          "workflowId" : 2017,
+          "reviewer" : {
+            "id" : "s7k8-df3k",
+            "displayName" : "Jason Lally"
+          },
+          "submissionDetails" : {
+            "permissionType" : "read"
+          },
+          "submissionOutcomeApplication" : {
+            "endedAt" : 1588695822,
+            "failureCount" : 0,
+            "startedAt" : 1588695822,
+            "status" : "success"
+          },
+          "submitter" : {
+            "id" : "s7k8-df3k",
+            "displayName" : "Jason Lally"
+          }
+        } ],
+        "clientContext" : {
+          "clientContextVariables" : [ ],
+          "inheritedVariables" : { }
+        },
+        "columns" : [ {
+          "id" : -1,
+          "name" : "sid",
+          "dataTypeName" : "meta_data",
+          "fieldName" : ":sid",
+          "position" : 0,
+          "renderTypeName" : "meta_data",
+          "format" : { },
+          "flags" : [ "hidden" ]
+        }, {
+          "id" : -1,
+          "name" : "id",
+          "dataTypeName" : "meta_data",
+          "fieldName" : ":id",
+          "position" : 0,
+          "renderTypeName" : "meta_data",
+          "format" : { },
+          "flags" : [ "hidden" ]
+        }, {
+          "id" : -1,
+          "name" : "position",
+          "dataTypeName" : "meta_data",
+          "fieldName" : ":position",
+          "position" : 0,
+          "renderTypeName" : "meta_data",
+          "format" : { },
+          "flags" : [ "hidden" ]
+        }, {
+          "id" : -1,
+          "name" : "created_at",
+          "dataTypeName" : "meta_data",
+          "fieldName" : ":created_at",
+          "position" : 0,
+          "renderTypeName" : "meta_data",
+          "format" : { },
+          "flags" : [ "hidden" ]
+        }, {
+          "id" : -1,
+          "name" : "created_meta",
+          "dataTypeName" : "meta_data",
+          "fieldName" : ":created_meta",
+          "position" : 0,
+          "renderTypeName" : "meta_data",
+          "format" : { },
+          "flags" : [ "hidden" ]
+        }, {
+          "id" : -1,
+          "name" : "updated_at",
+          "dataTypeName" : "meta_data",
+          "fieldName" : ":updated_at",
+          "position" : 0,
+          "renderTypeName" : "meta_data",
+          "format" : { },
+          "flags" : [ "hidden" ]
+        }, {
+          "id" : -1,
+          "name" : "updated_meta",
+          "dataTypeName" : "meta_data",
+          "fieldName" : ":updated_meta",
+          "position" : 0,
+          "renderTypeName" : "meta_data",
+          "format" : { },
+          "flags" : [ "hidden" ]
+        }, {
+          "id" : -1,
+          "name" : "meta",
+          "dataTypeName" : "meta_data",
+          "fieldName" : ":meta",
+          "position" : 0,
+          "renderTypeName" : "meta_data",
+          "format" : { },
+          "flags" : [ "hidden" ]
+        }, {
+          "id" : 481773300,
+          "name" : "ID",
+          "dataTypeName" : "text",
+          "description" : "Location identifier",
+          "fieldName" : "id",
+          "position" : 1,
+          "renderTypeName" : "text",
+          "tableColumnId" : 100720871,
+          "cachedContents" : {
+            "non_null" : "19",
+            "largest" : "9",
+            "null" : "0",
+            "top" : [ {
+              "item" : "1",
+              "count" : "1"
+            }, {
+              "item" : "9",
+              "count" : "1"
+            }, {
+              "item" : "4",
+              "count" : "1"
+            }, {
+              "item" : "8",
+              "count" : "1"
+            }, {
+              "item" : "12",
+              "count" : "1"
+            }, {
+              "item" : "21",
+              "count" : "1"
+            }, {
+              "item" : "10",
+              "count" : "1"
+            }, {
+              "item" : "7",
+              "count" : "1"
+            }, {
+              "item" : "24",
+              "count" : "1"
+            }, {
+              "item" : "13",
+              "count" : "1"
+            }, {
+              "item" : "17",
+              "count" : "1"
+            }, {
+              "item" : "5",
+              "count" : "1"
+            }, {
+              "item" : "23",
+              "count" : "1"
+            }, {
+              "item" : "14",
+              "count" : "1"
+            }, {
+              "item" : "22",
+              "count" : "1"
+            }, {
+              "item" : "3",
+              "count" : "1"
+            }, {
+              "item" : "6",
+              "count" : "1"
+            }, {
+              "item" : "2",
+              "count" : "1"
+            }, {
+              "item" : "16",
+              "count" : "1"
+            } ],
+            "smallest" : "1",
+            "count" : "19",
+            "cardinality" : "19"
+          },
+          "format" : { }
+        }, {
+          "id" : 481773301,
+          "name" : "Medical Home",
+          "dataTypeName" : "text",
+          "description" : "The provider of tests for this location",
+          "fieldName" : "medical_home",
+          "position" : 2,
+          "renderTypeName" : "text",
+          "tableColumnId" : 100425136,
+          "cachedContents" : {
+            "non_null" : "19",
+            "largest" : "UCSF/LTF",
+            "null" : "0",
+            "top" : [ {
+              "item" : "SF Department of Public Health in partnership with Color",
+              "count" : "4"
+            }, {
+              "item" : "UCSF",
+              "count" : "4"
+            }, {
+              "item" : "UCSF/LTF",
+              "count" : "2"
+            }, {
+              "item" : "Kaiser",
+              "count" : "1"
+            }, {
+              "item" : "SF Department of Public Health in Partnership with Color",
+              "count" : "1"
+            }, {
+              "item" : "CVS",
+              "count" : "1"
+            }, {
+              "item" : "Northeast Medical Services",
+              "count" : "1"
+            }, {
+              "item" : "Circle Medical",
+              "count" : "1"
+            }, {
+              "item" : "Dignity Health",
+              "count" : "1"
+            }, {
+              "item" : "Chinese Hospital",
+              "count" : "1"
+            }, {
+              "item" : "Forward",
+              "count" : "1"
+            }, {
+              "item" : "Carbon Health",
+              "count" : "1"
+            } ],
+            "smallest" : "Carbon Health",
+            "count" : "19",
+            "cardinality" : "12"
+          },
+          "format" : { }
+        }, {
+          "id" : 481773302,
+          "name" : "Name",
+          "dataTypeName" : "text",
+          "description" : "Name of location",
+          "fieldName" : "name",
+          "position" : 3,
+          "renderTypeName" : "text",
+          "tableColumnId" : 100425137,
+          "cachedContents" : {
+            "non_null" : "19",
+            "largest" : "Visitacion Valley",
+            "null" : "0",
+            "top" : [ {
+              "item" : "Visitacion Valley",
+              "count" : "2"
+            }, {
+              "item" : "French Campus",
+              "count" : "1"
+            }, {
+              "item" : "Parnassus - UCSF",
+              "count" : "1"
+            }, {
+              "item" : "Chinese Hospital Testing Site",
+              "count" : "1"
+            }, {
+              "item" : "Unidos en Salud",
+              "count" : "1"
+            }, {
+              "item" : "CVS Minute Clinic",
+              "count" : "1"
+            }, {
+              "item" : "Carbon Health - Castro Clinic",
+              "count" : "1"
+            }, {
+              "item" : "Pediatrics Clinic at Mt. Zion",
+              "count" : "1"
+            }, {
+              "item" : "Excelsior",
+              "count" : "1"
+            }, {
+              "item" : "Noriega Clinic",
+              "count" : "1"
+            }, {
+              "item" : "Forward Clinic",
+              "count" : "1"
+            }, {
+              "item" : "Southeast Health Center",
+              "count" : "1"
+            }, {
+              "item" : "Respiratory Care Clinic at the Gateway Building in  Mission Bay",
+              "count" : "1"
+            }, {
+              "item" : "Ella Hill Hutch",
+              "count" : "1"
+            }, {
+              "item" : "Circle Medical - Downtown Clinic",
+              "count" : "1"
+            }, {
+              "item" : "GLIDE Memorial Church",
+              "count" : "1"
+            }, {
+              "item" : "Laurel Heights Campus",
+              "count" : "1"
+            }, {
+              "item" : "Go Health Urgent Care Centers",
+              "count" : "1"
+            } ],
+            "smallest" : "Carbon Health - Castro Clinic",
+            "count" : "19",
+            "cardinality" : "18"
+          },
+          "format" : { }
+        }, {
+          "id" : 481773303,
+          "name" : "Address",
+          "dataTypeName" : "text",
+          "description" : "Address of location",
+          "fieldName" : "address",
+          "position" : 4,
+          "renderTypeName" : "text",
+          "tableColumnId" : 100425138,
+          "cachedContents" : {
+            "non_null" : "19",
+            "largest" : "845 Jackson St",
+            "null" : "0",
+            "top" : [ {
+              "item" : "330 Ellis St",
+              "count" : "1"
+            }, {
+              "item" : "499 5th Ave",
+              "count" : "1"
+            }, {
+              "item" : "2401 Keith Street",
+              "count" : "1"
+            }, {
+              "item" : "20 Norton St",
+              "count" : "1"
+            }, {
+              "item" : "2330 Post St #320",
+              "count" : "1"
+            }, {
+              "item" : "2288 Market St (Multiple Locations)",
+              "count" : "1"
+            }, {
+              "item" : "1998 Market St",
+              "count" : "1"
+            }, {
+              "item" : "2055 Sunnydale Ave",
+              "count" : "1"
+            }, {
+              "item" : "180 Sutter St",
+              "count" : "1"
+            }, {
+              "item" : "377 - 32nd Ave",
+              "count" : "1"
+            }, {
+              "item" : "1099 Sunnydale Ave",
+              "count" : "1"
+            }, {
+              "item" : "1181 Golden Gate Ave",
+              "count" : "1"
+            }, {
+              "item" : "1450 Noriega",
+              "count" : "1"
+            }, {
+              "item" : "1825 - 4th St",
+              "count" : "1"
+            }, {
+              "item" : "24th and Capp St",
+              "count" : "1"
+            }, {
+              "item" : "3333 California St",
+              "count" : "1"
+            }, {
+              "item" : "845 Jackson St",
+              "count" : "1"
+            }, {
+              "item" : "400 Parnassus Ave",
+              "count" : "1"
+            }, {
+              "item" : "333 - 1st St, Suite A",
+              "count" : "1"
+            } ],
+            "smallest" : "1099 Sunnydale Ave",
+            "count" : "19",
+            "cardinality" : "19"
+          },
+          "format" : { }
+        }, {
+          "id" : 481773304,
+          "name" : "Phone Number",
+          "dataTypeName" : "text",
+          "description" : "Phone number without formatting (10 digits)",
+          "fieldName" : "phone_number",
+          "position" : 5,
+          "renderTypeName" : "text",
+          "tableColumnId" : 100425135,
+          "cachedContents" : {
+            "non_null" : "18",
+            "largest" : "8449650987",
+            "null" : "1",
+            "top" : [ {
+              "item" : "311",
+              "count" : "6"
+            }, {
+              "item" : "4155147328",
+              "count" : "3"
+            }, {
+              "item" : "4158400560",
+              "count" : "1"
+            }, {
+              "item" : "6282282828",
+              "count" : "1"
+            }, {
+              "item" : "4157926040",
+              "count" : "1"
+            }, {
+              "item" : "4159644855",
+              "count" : "1"
+            }, {
+              "item" : "8449650987",
+              "count" : "1"
+            }, {
+              "item" : "8333346393",
+              "count" : "1"
+            }, {
+              "item" : "4158332000",
+              "count" : "1"
+            }, {
+              "item" : "4153919686",
+              "count" : "1"
+            }, {
+              "item" : "4158857478",
+              "count" : "1"
+            } ],
+            "smallest" : "311",
+            "count" : "19",
+            "cardinality" : "11"
+          },
+          "format" : { }
+        }, {
+          "id" : 481773305,
+          "name" : "Phone Number Formatted",
+          "dataTypeName" : "text",
+          "description" : "Phone number with formatting applied (###) ###-####",
+          "fieldName" : "phone_number_formatted",
+          "position" : 6,
+          "renderTypeName" : "text",
+          "tableColumnId" : 100425144,
+          "cachedContents" : {
+            "non_null" : "18",
+            "largest" : "Dial 3-1-1",
+            "null" : "1",
+            "top" : [ {
+              "item" : "Dial 3-1-1",
+              "count" : "6"
+            }, {
+              "item" : "(415) 514-7328",
+              "count" : "3"
+            }, {
+              "item" : "(415) 792-6040",
+              "count" : "1"
+            }, {
+              "item" : "(833) 334-6393",
+              "count" : "1"
+            }, {
+              "item" : "(628) 228-2828",
+              "count" : "1"
+            }, {
+              "item" : "(415) 833-2000",
+              "count" : "1"
+            }, {
+              "item" : "(415) 840-0560",
+              "count" : "1"
+            }, {
+              "item" : "(415) 964-4855",
+              "count" : "1"
+            }, {
+              "item" : "(415) 391-9686",
+              "count" : "1"
+            }, {
+              "item" : "(415) 885-7478",
+              "count" : "1"
+            }, {
+              "item" : "(844) 965-0987",
+              "count" : "1"
+            } ],
+            "smallest" : "(415) 391-9686",
+            "count" : "19",
+            "cardinality" : "11"
+          },
+          "format" : { }
+        }, {
+          "id" : 481773306,
+          "name" : "Testing Hours",
+          "dataTypeName" : "text",
+          "description" : "Hours when the location is open for testing",
+          "fieldName" : "testing_hours",
+          "position" : 7,
+          "renderTypeName" : "text",
+          "tableColumnId" : 100425141,
+          "cachedContents" : {
+            "non_null" : "19",
+            "largest" : "Wednesdays & Thursdays, 10am-4pm.",
+            "null" : "0",
+            "top" : [ {
+              "item" : "8am-5pm, Monday-Friday. *Please note, hours of operation are subject to change.  Please check with the facility for updated hours before heading to the site.",
+              "count" : "3"
+            }, {
+              "item" : "8am-8pm Monday-Friday, 9am-5pm, Weekends. *Please note, hours of operation are subject to change.  Please check with the facility for updated hours before heading to the site.",
+              "count" : "1"
+            }, {
+              "item" : "Mondays, 10am-5pm.",
+              "count" : "1"
+            }, {
+              "item" : "Fridays and Saturdays, 9am-3:45pm.",
+              "count" : "1"
+            }, {
+              "item" : "9am-7pm *Please note, hours of operation are subject to change.  Please check with the facility for updated hours before heading to the site.",
+              "count" : "1"
+            }, {
+              "item" : "9am-5pm, Monday-Friday. *Please note, hours of operation are subject to change.  Please check with the facility for updated hours before heading to the site.",
+              "count" : "1"
+            }, {
+              "item" : "8:30am-4:30pm, Monday-Sunday *Please note, hours of operation are subject to change.  Please check with the facility for updated hours before heading to the site.",
+              "count" : "1"
+            }, {
+              "item" : "8am-5pm, Monday-Sunday **Please note, this site will be closed on Tuesday, 7/4.",
+              "count" : "1"
+            }, {
+              "item" : "8am-6pm, Monday-Friday *Please note, hours of operation are subject to change.  Please check with the facility for updated hours before heading to the site.",
+              "count" : "1"
+            }, {
+              "item" : "Mondays, 9:30am-4pm.",
+              "count" : "1"
+            }, {
+              "item" : "Wednesdays & Thursdays, 10am-4pm.",
+              "count" : "1"
+            }, {
+              "item" : "8am-5pm Monday-Friday, 8am-2pm, Weekends.  *Please note, hours of operation are subject to change.  Please check with the facility for updated hours before heading to the site.",
+              "count" : "1"
+            }, {
+              "item" : "Monday-Sunday, 8am - 5pm  **Please note, this site will be closed on Tuesday, 7/4.",
+              "count" : "1"
+            }, {
+              "item" : "11:30am-12:30pm Monday-Saturday, except public holidays.  *Please note, hours of operation are subject to change.  Please check with the facility for updated hours before heading to the site.",
+              "count" : "1"
+            }, {
+              "item" : "3pm-4pm, Fridays. *Please note, hours of operation are subject to change.  Please check with the facility for updated hours before heading to the site.",
+              "count" : "1"
+            }, {
+              "item" : "*Please note, hours of operation are subject to change.  Please check with the facility for updated hours before heading to the site.",
+              "count" : "1"
+            }, {
+              "item" : "Wednesdays, 9:30am-4pm.",
+              "count" : "1"
+            } ],
+            "smallest" : "11:30am-12:30pm Monday-Saturday, except public holidays.  *Please note, hours of operation are subject to change.  Please check with the facility for updated hours before heading to the site.",
+            "count" : "19",
+            "cardinality" : "17"
+          },
+          "format" : { }
+        }, {
+          "id" : 481773307,
+          "name" : "Popup or Permanent",
+          "dataTypeName" : "text",
+          "description" : "Whether the location is a popup site or permanent",
+          "fieldName" : "popup_or_permanent",
+          "position" : 8,
+          "renderTypeName" : "text",
+          "tableColumnId" : 108700696,
+          "cachedContents" : {
+            "non_null" : "19",
+            "largest" : "Pop-Up",
+            "null" : "0",
+            "top" : [ {
+              "item" : "Permanent",
+              "count" : "13"
+            }, {
+              "item" : "Pop-Up",
+              "count" : "6"
+            } ],
+            "smallest" : "Permanent",
+            "count" : "19",
+            "cardinality" : "2"
+          },
+          "format" : { }
+        }, {
+          "id" : 481773308,
+          "name" : "Location Type",
+          "dataTypeName" : "text",
+          "description" : "Public = does not require insurance; Private = requires insurance",
+          "fieldName" : "location_type",
+          "position" : 9,
+          "renderTypeName" : "text",
+          "tableColumnId" : 100429329,
+          "cachedContents" : {
+            "non_null" : "19",
+            "largest" : "Public",
+            "null" : "0",
+            "top" : [ {
+              "item" : "Private",
+              "count" : "10"
+            }, {
+              "item" : "Public",
+              "count" : "9"
+            } ],
+            "smallest" : "Private",
+            "count" : "19",
+            "cardinality" : "2"
+          },
+          "format" : { }
+        }, {
+          "id" : 481773309,
+          "name" : "Eligibility",
+          "dataTypeName" : "text",
+          "description" : "Eligibility information for accessing testing at this location",
+          "fieldName" : "eligibility",
+          "position" : 10,
+          "renderTypeName" : "text",
+          "tableColumnId" : 100425140,
+          "cachedContents" : {
+            "non_null" : "19",
+            "largest" : "Virtual Visit required first for screening. Virtual Visits have zero cost to patients under Medicare/Medicaid and most other major insurance plans during the public health emergency. Currently, Virtual Visits are covered by Aetna, Anthem, Cigna, Health Plan San Mateo, Health Net (during emergency declarations) Humana, and UnitedHealthcare. Otherwise $140 out of pocket for virtual visit, which goes toward copay if visit to physical location is necessary after virtual screening, visit must happen within 24 hours of referral.",
+            "null" : "0",
+            "top" : [ {
+              "item" : "Everyone. No insurance required.",
+              "count" : "5"
+            }, {
+              "item" : "Must be UCSF patient",
+              "count" : "4"
+            }, {
+              "item" : "SF workers and residents. No insurance required.",
+              "count" : "1"
+            }, {
+              "item" : "Must be Carbon Health patient",
+              "count" : "1"
+            }, {
+              "item" : "Must be NEMS patient.",
+              "count" : "1"
+            }, {
+              "item" : "Check for eligibility when calling to make an appointment",
+              "count" : "1"
+            }, {
+              "item" : "Must be a Kaiser patient",
+              "count" : "1"
+            }, {
+              "item" : "Must be Forward Health patient",
+              "count" : "1"
+            }, {
+              "item" : "Anyone living or working in SF. No insurance required. Convenient for people on foot.",
+              "count" : "1"
+            }, {
+              "item" : "None. All major insurance Payers",
+              "count" : "1"
+            }, {
+              "item" : "Must meet CDC guidelines for Testing",
+              "count" : "1"
+            }, {
+              "item" : "Virtual Visit required first for screening. Virtual Visits have zero cost to patients under Medicare/Medicaid and most other major insurance plans during the public health emergency. Currently, Virtual Visits are covered by Aetna, Anthem, Cigna, Health Plan San Mateo, Health Net (during emergency declarations) Humana, and UnitedHealthcare. Otherwise $140 out of pocket for virtual visit, which goes toward copay if visit to physical location is necessary after virtual screening, visit must happen within 24 hours of referral.",
+              "count" : "1"
+            } ],
+            "smallest" : "Anyone living or working in SF. No insurance required. Convenient for people on foot.",
+            "count" : "19",
+            "cardinality" : "12"
+          },
+          "format" : { }
+        }, {
+          "id" : 481773311,
+          "name" : "CTA Text",
+          "dataTypeName" : "text",
+          "description" : "The call to action used for the web map",
+          "fieldName" : "cta_text",
+          "position" : 11,
+          "renderTypeName" : "text",
+          "tableColumnId" : 100592149,
+          "cachedContents" : {
+            "non_null" : "19",
+            "largest" : "Sign up with Provider",
+            "null" : "0",
+            "top" : [ {
+              "item" : "Drop In",
+              "count" : "7"
+            }, {
+              "item" : "Sign up with Provider",
+              "count" : "5"
+            }, {
+              "item" : "Can self-schedule with active MyChart account",
+              "count" : "4"
+            }, {
+              "item" : "Call for Appointment",
+              "count" : "1"
+            }, {
+              "item" : "Schedule a test",
+              "count" : "1"
+            }, {
+              "item" : "Schedule via phone or web",
+              "count" : "1"
+            } ],
+            "smallest" : "Call for Appointment",
+            "count" : "19",
+            "cardinality" : "6"
+          },
+          "format" : { }
+        }, {
+          "id" : 481773312,
+          "name" : "CTA Link",
+          "dataTypeName" : "text",
+          "description" : "The call to action link for the button on the web map",
+          "fieldName" : "cta_link",
+          "position" : 12,
+          "renderTypeName" : "text",
+          "tableColumnId" : 100592148,
+          "cachedContents" : {
+            "non_null" : "19",
+            "largest" : "tel://6282282828",
+            "null" : "0",
+            "top" : [ {
+              "item" : "https://sf.gov/GetTestedSF",
+              "count" : "6"
+            }, {
+              "item" : "tel://4155147328",
+              "count" : "3"
+            }, {
+              "item" : "https://www.gohealthuc.com/dignity/virtual-visits",
+              "count" : "1"
+            }, {
+              "item" : "https://healthy.kaiserpermanente.org/northern-california/health-wellness/coronavirus-information/get-care",
+              "count" : "1"
+            }, {
+              "item" : "https://www.circlemedical.com",
+              "count" : "1"
+            }, {
+              "item" : "tel://6282282828",
+              "count" : "1"
+            }, {
+              "item" : "https://patient.carbonhealth.com/#/schedule?practiceId=5bdaef44-8ff0-439f-99d7-3285afcc6911&vstId=0f02af4e-1d1c-4a4b-a0f2-e67fca98dd77&vstrId=f743d1d1-d2a1-4fce-a5f9-2e29339b2406&specialtyIds=652c64cc-9fcb-442f-b71e-266390ef2f63",
+              "count" : "1"
+            }, {
+              "item" : "http://www.cvs.com/minuteclinic/covid-19-testing",
+              "count" : "1"
+            }, {
+              "item" : "tel://4158857478",
+              "count" : "1"
+            }, {
+              "item" : "https://goforward.com/coronavirus",
+              "count" : "1"
+            }, {
+              "item" : "https://www.nems.org/covid19/",
+              "count" : "1"
+            }, {
+              "item" : "https://unitedinhealth.org",
+              "count" : "1"
+            } ],
+            "smallest" : "https://goforward.com/coronavirus",
+            "count" : "19",
+            "cardinality" : "12"
+          },
+          "format" : {
+            "displayStyle" : "url"
+          }
+        }, {
+          "id" : 481773314,
+          "name" : "Sample Collection Method",
+          "dataTypeName" : "text",
+          "description" : "The method for collecting samples at the lab",
+          "fieldName" : "sample_collection_method",
+          "position" : 13,
+          "renderTypeName" : "text",
+          "tableColumnId" : 108700695,
+          "cachedContents" : {
+            "non_null" : "1",
+            "largest" : "AN",
+            "null" : "18",
+            "top" : [ {
+              "item" : "AN",
+              "count" : "1"
+            } ],
+            "smallest" : "AN",
+            "count" : "19",
+            "cardinality" : "1"
+          },
+          "format" : { }
+        }, {
+          "id" : 481773321,
+          "name" : "Lab",
+          "dataTypeName" : "text",
+          "description" : "",
+          "fieldName" : "lab",
+          "position" : 14,
+          "renderTypeName" : "text",
+          "tableColumnId" : 108829742,
+          "cachedContents" : {
+            "non_null" : "8",
+            "largest" : "UCSF",
+            "null" : "11",
+            "top" : [ {
+              "item" : "UCSF",
+              "count" : "4"
+            }, {
+              "item" : "Rapid test (Abbot ID NOW)",
+              "count" : "2"
+            }, {
+              "item" : "Quest",
+              "count" : "1"
+            }, {
+              "item" : "Kaiser",
+              "count" : "1"
+            } ],
+            "smallest" : "Kaiser",
+            "count" : "19",
+            "cardinality" : "4"
+          },
+          "format" : { }
+        }, {
+          "id" : 481773317,
+          "name" : "Latitude",
+          "dataTypeName" : "number",
+          "description" : "The latitude of the location, only entered manually when necessary to override automated geocoding",
+          "fieldName" : "latitude",
+          "position" : 15,
+          "renderTypeName" : "number",
+          "tableColumnId" : 108700698,
+          "cachedContents" : {
+            "non_null" : "6",
+            "largest" : "37.7852341",
+            "null" : "13",
+            "top" : [ {
+              "item" : "37.7134399",
+              "count" : "1"
+            }, {
+              "item" : "37.7523188",
+              "count" : "1"
+            }, {
+              "item" : "37.7789457",
+              "count" : "1"
+            }, {
+              "item" : "37.7105793",
+              "count" : "1"
+            }, {
+              "item" : "37.7248465",
+              "count" : "1"
+            }, {
+              "item" : "37.7852341",
+              "count" : "1"
+            } ],
+            "smallest" : "37.7105793",
+            "count" : "19",
+            "cardinality" : "6"
+          },
+          "format" : { }
+        }, {
+          "id" : 481773319,
+          "name" : "Longitude",
+          "dataTypeName" : "number",
+          "description" : "Longitude of location, only entered when necessary to override automated geocoding",
+          "fieldName" : "longitude",
+          "position" : 16,
+          "renderTypeName" : "number",
+          "tableColumnId" : 108700697,
+          "cachedContents" : {
+            "non_null" : "6",
+            "largest" : "-122.413658",
+            "null" : "13",
+            "top" : [ {
+              "item" : "-122.4144492",
+              "count" : "1"
+            }, {
+              "item" : "-122.4372186",
+              "count" : "1"
+            }, {
+              "item" : "-122.4292394",
+              "count" : "1"
+            }, {
+              "item" : "-122.413658",
+              "count" : "1"
+            }, {
+              "item" : "-122.4256486",
+              "count" : "1"
+            }, {
+              "item" : "-122.4195663",
+              "count" : "1"
+            } ],
+            "smallest" : "-122.4372186",
+            "count" : "19",
+            "cardinality" : "6"
+          },
+          "format" : { }
+        }, {
+          "id" : 481773320,
+          "name" : "point",
+          "dataTypeName" : "point",
+          "description" : "Geocoded point EPSG:4326",
+          "fieldName" : "point",
+          "position" : 17,
+          "renderTypeName" : "point",
+          "tableColumnId" : 100425139,
+          "cachedContents" : {
+            "non_null" : "19",
+            "null" : "0",
+            "top" : [ {
+              "item" : {
+                "coordinates" : [ -122.4372186, 37.7248465 ],
+                "type" : "Point"
+              },
+              "count" : "1"
+            }, {
+              "item" : {
+                "coordinates" : [ -122.43283200199994, 37.764896014000044 ],
+                "type" : "Point"
+              },
+              "count" : "1"
+            }, {
+              "item" : {
+                "coordinates" : [ -122.46314762099996, 37.77919291400008 ],
+                "type" : "Point"
+              },
+              "count" : "1"
+            }, {
+              "item" : {
+                "coordinates" : [ -122.413658, 37.7852341 ],
+                "type" : "Point"
+              },
+              "count" : "1"
+            }, {
+              "item" : {
+                "coordinates" : [ -122.39370402099996, 37.78703899000004 ],
+                "type" : "Point"
+              },
+              "count" : "1"
+            }, {
+              "item" : {
+                "coordinates" : [ -122.40335502799996, 37.79014700000005 ],
+                "type" : "Point"
+              },
+              "count" : "1"
+            }, {
+              "item" : {
+                "coordinates" : [ -122.49300996, 37.78207200000003 ],
+                "type" : "Point"
+              },
+              "count" : "1"
+            }, {
+              "item" : {
+                "coordinates" : [ -122.4144492, 37.7105793 ],
+                "type" : "Point"
+              },
+              "count" : "1"
+            }, {
+              "item" : {
+                "coordinates" : [ -122.39194599999996, 37.72577100800004 ],
+                "type" : "Point"
+              },
+              "count" : "1"
+            }, {
+              "item" : {
+                "coordinates" : [ -122.42621096899995, 37.77007598800003 ],
+                "type" : "Point"
+              },
+              "count" : "1"
+            }, {
+              "item" : {
+                "coordinates" : [ -122.448051024, 37.78605700800006 ],
+                "type" : "Point"
+              },
+              "count" : "1"
+            }, {
+              "item" : {
+                "coordinates" : [ -122.40888398299995, 37.79549800700005 ],
+                "type" : "Point"
+              },
+              "count" : "1"
+            }, {
+              "item" : {
+                "coordinates" : [ -122.4292394, 37.7789457 ],
+                "type" : "Point"
+              },
+              "count" : "1"
+            }, {
+              "item" : {
+                "coordinates" : [ -122.4195663, 37.7523188 ],
+                "type" : "Point"
+              },
+              "count" : "1"
+            }, {
+              "item" : {
+                "coordinates" : [ -122.45838800599995, 37.763881007000066 ],
+                "type" : "Point"
+              },
+              "count" : "1"
+            }, {
+              "item" : {
+                "coordinates" : [ -122.39008798399999, 37.76596399400006 ],
+                "type" : "Point"
+              },
+              "count" : "1"
+            }, {
+              "item" : {
+                "coordinates" : [ -122.44042097699997, 37.784529993000035 ],
+                "type" : "Point"
+              },
+              "count" : "1"
+            }, {
+              "item" : {
+                "coordinates" : [ -122.47946295999998, 37.75431901600007 ],
+                "type" : "Point"
+              },
+              "count" : "1"
+            }, {
+              "item" : {
+                "coordinates" : [ -122.4256486, 37.7134399 ],
+                "type" : "Point"
+              },
+              "count" : "1"
+            } ],
+            "count" : "19",
+            "cardinality" : "19"
+          },
+          "format" : { }
+        }, {
+          "id" : 481773310,
+          "name" : "Neighborhoods",
+          "dataTypeName" : "number",
+          "description" : "",
+          "fieldName" : ":@computed_region_jwn9_ihcz",
+          "position" : 18,
+          "renderTypeName" : "number",
+          "tableColumnId" : 100425145,
+          "computationStrategy" : {
+            "source_columns" : [ "point" ],
+            "type" : "georegion_match_on_point",
+            "parameters" : {
+              "region" : "_jwn9-ihcz",
+              "primary_key" : "_feature_id"
+            }
+          },
+          "format" : { }
+        }, {
+          "id" : 481773313,
+          "name" : "SF Find Neighborhoods",
+          "dataTypeName" : "number",
+          "description" : "",
+          "fieldName" : ":@computed_region_6qbp_sg9q",
+          "position" : 19,
+          "renderTypeName" : "number",
+          "tableColumnId" : 100425146,
+          "computationStrategy" : {
+            "source_columns" : [ "point" ],
+            "type" : "georegion_match_on_point",
+            "parameters" : {
+              "region" : "_6qbp-sg9q",
+              "primary_key" : "_feature_id"
+            }
+          },
+          "format" : { }
+        }, {
+          "id" : 481773315,
+          "name" : "Current Police Districts",
+          "dataTypeName" : "number",
+          "description" : "",
+          "fieldName" : ":@computed_region_qgnn_b9vv",
+          "position" : 20,
+          "renderTypeName" : "number",
+          "tableColumnId" : 100425147,
+          "computationStrategy" : {
+            "source_columns" : [ "point" ],
+            "type" : "georegion_match_on_point",
+            "parameters" : {
+              "region" : "_qgnn-b9vv",
+              "primary_key" : "_feature_id"
+            }
+          },
+          "format" : { }
+        }, {
+          "id" : 481773316,
+          "name" : "Current Supervisor Districts",
+          "dataTypeName" : "number",
+          "description" : "",
+          "fieldName" : ":@computed_region_26cr_cadq",
+          "position" : 21,
+          "renderTypeName" : "number",
+          "tableColumnId" : 100425148,
+          "computationStrategy" : {
+            "source_columns" : [ "point" ],
+            "type" : "georegion_match_on_point",
+            "parameters" : {
+              "region" : "_26cr-cadq",
+              "primary_key" : "_feature_id"
+            }
+          },
+          "format" : { }
+        }, {
+          "id" : 481773318,
+          "name" : "Analysis Neighborhoods",
+          "dataTypeName" : "number",
+          "description" : "",
+          "fieldName" : ":@computed_region_ajp5_b2md",
+          "position" : 22,
+          "renderTypeName" : "number",
+          "tableColumnId" : 100425149,
+          "computationStrategy" : {
+            "source_columns" : [ "point" ],
+            "type" : "georegion_match_on_point",
+            "parameters" : {
+              "region" : "_ajp5-b2md",
+              "primary_key" : "_feature_id"
+            }
+          },
+          "format" : { }
+        } ],
+        "grants" : [ {
+          "inherited" : false,
+          "type" : "viewer",
+          "flags" : [ "public" ]
+        } ],
+        "license" : {
+          "name" : "Open Data Commons Public Domain Dedication and License",
+          "termsLink" : "http://opendatacommons.org/licenses/pddl/1.0/"
+        },
+        "metadata" : {
+          "custom_fields" : {
+            "Department Metrics" : {
+              "Publishing Department" : "Mayor"
+            },
+            "Detailed Descriptive" : {
+              "Geographic unit" : "Latitude/longitude"
+            },
+            "Publishing Details" : {
+              "Data change frequency" : "As needed",
+              "Publishing frequency" : "As needed"
+            }
+          },
+          "rowLabel" : "Location",
+          "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+        },
+        "owner" : {
+          "id" : "dbag-6qd9",
+          "displayName" : "OpenData",
+          "screenName" : "OpenData",
+          "type" : "interactive",
+          "flags" : [ "acceptedEula" ]
+        },
+        "query" : { },
+        "rights" : [ "read" ],
+        "tableAuthor" : {
+          "id" : "dbag-6qd9",
+          "displayName" : "OpenData",
+          "screenName" : "OpenData",
+          "type" : "interactive",
+          "flags" : [ "acceptedEula" ]
+        },
+        "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+      }
+    },
+    "data" : [ [ "row-d8f5.5ynv~9jiw", "00000000-0000-0000-2893-FF20C95BA427", 0, 1688156392, null, 1688156394, null, "{ }", "1", "Carbon Health", "Carbon Health - Castro Clinic", "1998 Market St", "4157926040", "(415) 792-6040", "9am-7pm *Please note, hours of operation are subject to change.  Please check with the facility for updated hours before heading to the site.", "Permanent", "Private", "Must be Carbon Health patient", "Sign up with Provider", "https://patient.carbonhealth.com/#/schedule?practiceId=5bdaef44-8ff0-439f-99d7-3285afcc6911&vstId=0f02af4e-1d1c-4a4b-a0f2-e67fca98dd77&vstrId=f743d1d1-d2a1-4fce-a5f9-2e29339b2406&specialtyIds=652c64cc-9fcb-442f-b71e-266390ef2f63", null, "Rapid test (Abbot ID NOW)", null, null, "POINT (-122.42621096899995 37.77007598800003)", "27", "27", "7", "5", "9" ]
+  , [ "row-qsbu_tpfu-4yuv", "00000000-0000-0000-4444-10241C295E56", 0, 1688156392, null, 1688156394, null, "{ }", "6", "Northeast Medical Services", "Noriega Clinic", "1450 Noriega", "4153919686", "(415) 391-9686", "3pm-4pm, Fridays. *Please note, hours of operation are subject to change.  Please check with the facility for updated hours before heading to the site.", "Permanent", "Private", "Must be NEMS patient.", "Sign up with Provider", "https://www.nems.org/covid19/", null, null, null, null, "POINT (-122.47946295999998 37.75431901600007)", "39", "39", "10", "7", "35" ]
+  , [ "row-msqg-pqy6~mk6a", "00000000-0000-0000-2560-2CCDBB2C5471", 0, 1688156392, null, 1688156394, null, "{ }", "12", "CVS", "CVS Minute Clinic", "377 - 32nd Ave", null, null, "*Please note, hours of operation are subject to change.  Please check with the facility for updated hours before heading to the site.", "Permanent", "Public", "Must meet CDC guidelines for Testing", "Schedule a test", "http://www.cvs.com/minuteclinic/covid-19-testing", "AN", "Quest", null, null, "POINT (-122.49300996 37.78207200000003)", "8", "8", "8", "4", "29" ]
+  , [ "row-dkda.ze7w_8pxf", "00000000-0000-0000-7254-EF29FBFFA3FC", 0, 1688156392, null, 1688156394, null, "{ }", "17", "SF Department of Public Health in partnership with Color", "GLIDE Memorial Church", "330 Ellis St", "311", "Dial 3-1-1", "Wednesdays & Thursdays, 10am-4pm.", "Pop-Up", "Public", "Everyone. No insurance required.", "Drop In", "https://sf.gov/GetTestedSF", null, null, "37.7852341", "-122.413658", "POINT (-122.413658 37.7852341)", "20", "20", "5", "10", "36" ]
+  , [ "row-fce8_c4xh.q5cu", "00000000-0000-0000-F827-C272983AEDAC", 0, 1688156392, null, 1688156394, null, "{ }", "2", "Forward", "Forward Clinic", "180 Sutter St", "8333346393", "(833) 334-6393", "8am-6pm, Monday-Friday *Please note, hours of operation are subject to change.  Please check with the facility for updated hours before heading to the site.", "Permanent", "Private", "Must be Forward Health patient", "Sign up with Provider", "https://goforward.com/coronavirus", null, null, null, null, "POINT (-122.40335502799996 37.79014700000005)", "19", "19", "6", "3", "8" ]
+  , [ "row-c769_k87z~qjbg", "00000000-0000-0000-6E99-888A65A5584C", 0, 1688156392, null, 1688156394, null, "{ }", "7", "UCSF", "Parnassus - UCSF", "400 Parnassus Ave", "4155147328", "(415) 514-7328", "8am-5pm, Monday-Friday. *Please note, hours of operation are subject to change.  Please check with the facility for updated hours before heading to the site.", "Permanent", "Private", "Must be UCSF patient", "Can self-schedule with active MyChart account", "tel://4155147328", null, "UCSF", null, null, "POINT (-122.45838800599995 37.763881007000066)", "110", "110", "7", "11", "14" ]
+  , [ "row-zsut~kw23-tzgi", "00000000-0000-0000-7625-29678276CE0D", 0, 1688156392, null, 1688156394, null, "{ }", "10", "SF Department of Public Health in Partnership with Color", "Southeast Health Center", "2401 Keith Street", "311", "Dial 3-1-1", "8am-5pm, Monday-Sunday **Please note, this site will be closed on Tuesday, 7/4.", "Permanent", "Public", "Anyone living or working in SF. No insurance required. Convenient for people on foot.", "Drop In", "https://sf.gov/GetTestedSF", null, null, null, null, "POINT (-122.39194599999996 37.72577100800004)", "86", "86", "2", "9", "1" ]
+  , [ "row-manb~yhh4.f8zq", "00000000-0000-0000-DC13-AE901FF83FA6", 0, 1688156392, null, 1688156394, null, "{ }", "16", "UCSF/LTF", "Excelsior", "20 Norton St", "311", "Dial 3-1-1", "Mondays, 10am-5pm.", "Pop-Up", "Public", "Everyone. No insurance required.", "Drop In", "https://sf.gov/GetTestedSF", null, null, "37.7248465", "-122.4372186", "POINT (-122.4372186 37.7248465)", "94", "94", "9", "1", "28" ]
+  , [ "row-46tc.5b64~fjx2", "00000000-0000-0000-8674-87B5E98887FF", 0, 1688156392, null, 1688156394, null, "{ }", "3", "Kaiser", "French Campus", "499 5th Ave", "4158332000", "(415) 833-2000", "8:30am-4:30pm, Monday-Sunday *Please note, hours of operation are subject to change.  Please check with the facility for updated hours before heading to the site.", "Permanent", "Private", "Must be a Kaiser patient", "Sign up with Provider", "https://healthy.kaiserpermanente.org/northern-california/health-wellness/coronavirus-information/get-care", null, "Kaiser", null, null, "POINT (-122.46314762099996 37.77919291400008)", "5", "5", "8", "4", "11" ]
+  , [ "row-zas3~rf5j~5gxk", "00000000-0000-0000-0367-608B3E8962F7", 0, 1688156392, null, 1688156394, null, "{ }", "23", "SF Department of Public Health in partnership with Color", "Ella Hill Hutch", "1181 Golden Gate Ave", "311", "Dial 3-1-1", "Monday-Sunday, 8am - 5pm  **Please note, this site will be closed on Tuesday, 7/4.", "Permanent", "Public", "SF workers and residents. No insurance required.", "Drop In", "https://sf.gov/GetTestedSF", null, null, "37.7789457", "-122.4292394", "POINT (-122.4292394 37.7789457)", "97", "97", "4", "11", "39" ]
+  , [ "row-e2rd~pw6c-st5e", "00000000-0000-0000-34C0-C37F2E00A028", 0, 1688156392, null, 1688156394, null, "{ }", "14", "Chinese Hospital", "Chinese Hospital Testing Site", "845 Jackson St", "6282282828", "(628) 228-2828", "11:30am-12:30pm Monday-Saturday, except public holidays.  *Please note, hours of operation are subject to change.  Please check with the facility for updated hours before heading to the site.", "Permanent", "Public", "Check for eligibility when calling to make an appointment", "Call for Appointment", "tel://6282282828", null, null, null, null, "POINT (-122.40888398299995 37.79549800700005)", "104", "104", "6", "3", "6" ]
+  , [ "row-ub5x~myty_fbbu", "00000000-0000-0000-F258-86CD84C24A4A", 0, 1688156392, null, 1688156394, null, "{ }", "8", "UCSF", "Pediatrics Clinic at Mt. Zion", "2330 Post St #320", "4158857478", "(415) 885-7478", "8am-5pm, Monday-Friday. *Please note, hours of operation are subject to change.  Please check with the facility for updated hours before heading to the site.", "Permanent", "Private", "Must be UCSF patient", "Can self-schedule with active MyChart account", "tel://4158857478", null, "UCSF", null, null, "POINT (-122.44042097699997 37.784529993000035)", "103", "103", "8", "11", "15" ]
+  , [ "row-pvq9~66pj.296c", "00000000-0000-0000-1812-375AA96C341B", 0, 1688156392, null, 1688156394, null, "{ }", "4", "Dignity Health", "Go Health Urgent Care Centers", "2288 Market St (Multiple Locations)", "4159644855", "(415) 964-4855", "8am-8pm Monday-Friday, 9am-5pm, Weekends. *Please note, hours of operation are subject to change.  Please check with the facility for updated hours before heading to the site.", "Permanent", "Private", "Virtual Visit required first for screening. Virtual Visits have zero cost to patients under Medicare/Medicaid and most other major insurance plans during the public health emergency. Currently, Virtual Visits are covered by Aetna, Anthem, Cigna, Health Plan San Mateo, Health Net (during emergency declarations) Humana, and UnitedHealthcare. Otherwise $140 out of pocket for virtual visit, which goes toward copay if visit to physical location is necessary after virtual screening, visit must happen within 24 hours of referral.", "Sign up with Provider", "https://www.gohealthuc.com/dignity/virtual-visits", null, "Rapid test (Abbot ID NOW)", null, null, "POINT (-122.43283200199994 37.764896014000044)", "28", "28", "7", "5", "5" ]
+  , [ "row-irzq~cbu9_imzy", "00000000-0000-0000-5813-705526FC340B", 0, 1688156392, null, 1688156394, null, "{ }", "24", "SF Department of Public Health in partnership with Color", "Visitacion Valley", "1099 Sunnydale Ave", "311", "Dial 3-1-1", "Mondays, 9:30am-4pm.", "Pop-Up", "Public", "Everyone. No insurance required.", "Drop In", "https://sf.gov/GetTestedSF", null, null, "37.7105793", "-122.4144492", "POINT (-122.4144492 37.7105793)", "75", "75", "9", "9", "40" ]
+  , [ "row-gqa7_iw32_dggu", "00000000-0000-0000-56E7-98FD2015AE20", 0, 1688156392, null, 1688156394, null, "{ }", "22", "UCSF/LTF", "Unidos en Salud", "24th and Capp St", "8449650987", "(844) 965-0987", "Fridays and Saturdays, 9am-3:45pm.", "Pop-Up", "Public", "Everyone. No insurance required.", "Drop In", "https://unitedinhealth.org", null, null, "37.7523188", "-122.4195663", "POINT (-122.4195663 37.7523188)", "53", "53", "3", "2", "20" ]
+  , [ "row-w326~khhg-xfkb", "00000000-0000-0000-032B-0AC919C7FAFE", 0, 1688156392, null, 1688156394, null, "{ }", "13", "Circle Medical", "Circle Medical - Downtown Clinic", "333 - 1st St, Suite A", "4158400560", "(415) 840-0560", "8am-5pm Monday-Friday, 8am-2pm, Weekends.  *Please note, hours of operation are subject to change.  Please check with the facility for updated hours before heading to the site.", "Permanent", "Private", "None. All major insurance Payers", "Schedule via phone or web", "https://www.circlemedical.com", null, null, null, null, "POINT (-122.39370402099996 37.78703899000004)", "30", "30", "1", "10", "8" ]
+  , [ "row-hpt4_kbre.8ng6", "00000000-0000-0000-FFB6-963B4A608498", 0, 1688156392, null, 1688156394, null, "{ }", "9", "UCSF", "Respiratory Care Clinic at the Gateway Building in  Mission Bay", "1825 - 4th St", "4155147328", "(415) 514-7328", "8am-5pm, Monday-Friday. *Please note, hours of operation are subject to change.  Please check with the facility for updated hours before heading to the site.", "Permanent", "Private", "Must be UCSF patient", "Can self-schedule with active MyChart account", "tel://4155147328", null, "UCSF", null, null, "POINT (-122.39008798399999 37.76596399400006)", "34", "34", "1", "10", "26" ]
+  , [ "row-eqtd.4upc-cu8r", "00000000-0000-0000-DB63-28876236AF42", 0, 1688156392, null, 1688156394, null, "{ }", "5", "UCSF", "Laurel Heights Campus", "3333 California St", "4155147328", "(415) 514-7328", "9am-5pm, Monday-Friday. *Please note, hours of operation are subject to change.  Please check with the facility for updated hours before heading to the site.", "Pop-Up", "Private", "Must be UCSF patient", "Can self-schedule with active MyChart account", "tel://4155147328", null, "UCSF", null, null, "POINT (-122.448051024 37.78605700800006)", "11", "11", "8", "6", "31" ]
+  , [ "row-y6uc_8c6r.ztuu", "00000000-0000-0000-8AC8-198766038047", 0, 1688156392, null, 1688156394, null, "{ }", "21", "SF Department of Public Health in partnership with Color", "Visitacion Valley", "2055 Sunnydale Ave", "311", "Dial 3-1-1", "Wednesdays, 9:30am-4pm.", "Pop-Up", "Public", "Everyone. No insurance required.", "Drop In", "https://sf.gov/GetTestedSF", null, null, "37.7134399", "-122.4256486", "POINT (-122.4256486 37.7134399)", "73", "73", "9", "9", "19" ]
+   ]
+  }
